@@ -1,0 +1,121 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Informe de Taller 1 - Ciberseguridad</title>  
+    <!-- Tailwind CSS (CDN para facilidad de uso por los estudiantes) -->  
+    <script src="https://cdn.tailwindcss.com"></script>  
+<style>  
+        /* Estilos personalizados para darle un toque "Hacker/Cyber" pero académico */         body {  
+            background-color: #f3f4f6; /* Gris muy claro para legibilidad */  
+        }  
+        .cyber-border {  
+            border-left: 4px solid #05ce8b; /* Borde verde esmeralda */  
+        }  
+        .header-bg {  
+            background: linear-gradient(90deg, #1f2937 0%, #111827 100%);  
+        }  
+    </style>  
+</head>  
+<body class="text-gray-800 font-sans antialiased p-4 md:p-8">  
+  
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-lg overflow-hidden border border-gray-200">  
+          
+        <!-- Cabecera Institucional -->  
+        <header class="header-bg text-white p-6 md:p-8">  
+            <div class="flex justify-between items-center border-b border-gray-700 pb-4 mb-4">  
+                <div>  
+                    <h2 class="text-sm uppercase tracking-widest text-emerald-400 font-bold">Técnico Superior en 
+Ciberseguridad</h2>  
+                    <h1 class="text-3xl font-extrabold mt-1">EID1071: Gestión de la Continuidad</h1>  
+                </div>  
+                <div class="hidden md:block">  
+                    <!-- Icono decorativo -->  
+                    <svg class="w-12 h-12 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" 
+xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618  
+3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622  
+0-1.042-.133-2.052-.382-3.016z"></path></svg>  
+                </div>  
+            </div>  
+            <div>  
+                <p class="text-lg text-gray-300"><strong>Taller Formativo 1:</strong> Operación Pizarra  
+Blanca</p>  
+                <!-- INSTRUCCIÓN ESTUDIANTE: Llena los datos de tu equipo aquí -->  
+                <p class="mt-2 text-sm text-gray-400"><strong>Integrantes:</strong> VICENTE FLORES, JOSEPH GARCIA , MARKUS DIAZ , NELLY PEREA , ISAAC VALENCIA </p>  
+                <p class="text-sm text-gray-400"><strong>Fecha de entrega:</strong> 02/10/2026</p>  
+            </div>  
+        </header>  
+  
+        <!-- Cuerpo del Informe -->  
+        <main class="p-6 md:p-8">  
+  
+            <!-- Sección 1: Introducción -->  
+            <section class="mb-8 cyber-border pl-4"> 
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">1. Introducción al Escenario</h3>  
+                <!-- INSTRUCCIÓN ESTUDIANTE: Escribe tu introducción aquí -->  
+                <p class="text-gray-700 leading-relaxed">  
+                      Para este taller se analizó el escenario de un Hospital de Nivel 3, con el objetivo de mapear gráficamente la dependencia entre sus procesos de negocio, los sistemas de tecnologías de la información (TI) que los soportan y el hardware físico sobre el que corren dichos sistemas. Este mapeo es esencial antes de diseñar cualquier plan de contingencia, ya que permite entender el impacto real que una falla técnica (por ejemplo, la caída de un servidor) tiene sobre la operación del negocio, y no solo sobre la infraestructura tecnológica.
+
+
+                </p> 
+                
+         <p class="text-gray-700 leading-relaxed mt-3"> 
+                     se utilizó un papelógrafo y post-its de tres colores, Con líneas trazadas a mano se conectaron las conexiones entre los tres niveles, evitando dejar elementos huérfanos, es decir, asegurando que cada proceso de negocio quedara vinculado a al menos un sistema TI, y cada sistema TI a al menos un activo de hardware.
+
+                 </p>    
+            </section>  
+  
+            <!-- Sección 2: Evidencia Fotográfica (Mapa Kinestésico) -->  
+            <section class="mb-8 cyber-border pl-4">  
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">2. Mapa de Dependencias del Negocio</h3>                 
+<p class="text-gray-600 text-sm mb-4">Evidencia del mapeo realizado en clase conectando procesos críticos, 
+sistemas TI y hardware físico.</p>  
+                  
+                <div class="bg-gray-100 p-2 rounded-lg border-2 border-dashed border-gray-300 flex justify-center items
+center overflow-hidden">  
+                    <!-- INSTRUCCIÓN ESTUDIANTE: Cambia 'nombre_de_la_foto.jpg' por el nombre de tu archivo de 
+imagen. Asegúrate que esté en la misma carpeta que este archivo HTML -->  
+                    <img src="Image.jfif" alt="[Insertar foto del papelógrafo aquí]" class="max-w-full h-auto 
+rounded shadow-sm object-cover" onerror="this.onerror=null;  
+this.src='https://via.placeholder.com/800x400?text=Sustituir+por+foto+del+mapa+Kinestesico';">  
+                </div>  
+            </section>  
+  
+            <!-- Sección 3: Análisis y Conclusiones (IRP/DRP/BCP) -->  
+            <section class="mb-8 cyber-border pl-4">  
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">3. Análisis de Resiliencia ante Incidentes</h3>  
+                  
+                <div class="space-y-4">  
+                    <!-- Caja IRP -->  
+                    <div class="bg-blue-50 border border-blue-200 p-4 rounded">  
+                        <h4 class="font-bold text-blue-800">Plan de Respuesta a Incidentes (IRP)</h4>  
+                        <!-- INSTRUCCIÓN ESTUDIANTE: Responde a la pregunta del IRP -->  
+                        <p class="text-gray-700 text-sm mt-1">Al detectar el ransomware ingresando por la Red Wi-Fi, la primera acción es aislar el Active Directory desconectándolo de la red y bloqueando los puntos de acceso (Access Points) afectados, para evitar que el cifrado se propague hacia el Servidor Física 1 y, con él, hacia la Base de Datos. El IRP no busca reparar ni restaurar nada todavía: su función es contener el incidente en el menor tiempo posible. </p>  
+                    </div>  
+  
+                    <!-- Caja DRP -->  
+                    <div class="bg-emerald-50 border border-emerald-200 p-4 rounded">  
+                        <h4 class="font-bold text-emerald-800">Plan de Recuperación ante Desastres (DRP)</h4>  
+                        <!-- INSTRUCCIÓN ESTUDIANTE: Responde a la pregunta del DRP -->  
+                        <p class="text-gray-700 text-sm mt-1">Una vez contenido el ataque, el equipo de infraestructura de TI restaura la Base de Datos a partir del último respaldo (backup) verificado como limpio, en un servidor aislado de la red comprometida. Se valida la integridad de los datos restaurados y, solo después de confirmar que no hay rastros del ransomware, se reconectan de forma gradual el Active Directory y la Red Wi-Fi. </p>  
+                    </div>  
+  
+                    <!-- Caja BCP -->  
+                    <div class="bg-amber-50 border border-amber-200 p-4 rounded">  
+                        <h4 class="font-bold text-amber-800">Plan de Continuidad del Negocio (BCP)</h4>  
+<!-- INSTRUCCIÓN ESTUDIANTE: Responde a la pregunta del BCP -->  
+<p class="text-gray-700 text-sm mt-1">Mientras TI ejecuta el DRP y la Base de Datos permanece fuera de línea, Urgencias activa su protocolo de registro manual en formularios pre-impresos, y Farmacia despacha medicamentos contra un inventario físico de respaldo. Esto permite que el hospital siga atendiendo pacientes con un nivel mínimo aceptable de servicio, sin depender de que la tecnología esté disponible.</p>  
+</div>  
+</div>  
+</section>  
+</main>  
+<!-- Pie de página -->  
+<footer class="bg-gray-100 p-4 text-center border-t border-gray-200">  
+<p class="text-xs text-gray-500">Documento generado para la evaluación de la asignatura  
+EID1071.</p>  
+</footer>  
+</div>  
+</body>  
+</html>  
